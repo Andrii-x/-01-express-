@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: nodejs-hw
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
